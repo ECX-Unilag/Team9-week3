@@ -1,0 +1,371 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    border: 1.5px solid #ea7e00;
+    margin: 0.75em auto;
+    width: 100px;
+}
+
+input,
+select,
+textarea {
+    font-family: 'Mulish', sans-serif;
+    height: 40px;
+    margin: 0.75em 0;
+    padding: 0.5em;
+    width: 100%;
+}
+
+textarea {
+    grid-column: span 2;
+    height: auto;
+    resize: none;
+}
+
+/* General classes */
+.container {
+    margin: 0 auto;
+    padding: 1.5em 0;
+    width: 90%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-header {
+    flex-direction: column-reverse;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-header-intro {
+    font-weight: 300;
+}
+
+.logo {
+    width: 75px;
+}
+
+.link-btn {
+    background: #000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.link-btn:hover {
+    background: #8e0d0c;
+    color: #fff;
+}
+
+.order-btn {
+    background: #8e0d0c;
+    display: inline-block;
+    font-weight: 600;
+    margin: 1.5em 0;
+    padding: 0.75em 1.5em;
+    text-transform: uppercase;
+}
+
+.order-btn:hover {
+    background: #fff;
+    color: #8e0d0c;
+}
+
+.number-input-container {
+    position: relative;
+}
+
+.number-input-container i {
+    color: #000;
+    position: absolute;
+    right: 15px;
+    top: 35%;
+}
+
+/* Header */
+header {
+    background: url('../images/pexels-august-de-richelieu-4262012 1.png') no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 600;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.header-container {
+    align-items: center;
+    text-align: center;
+}
+
+.header-navbar-ul {
+    flex-wrap: wrap;
+}
+
+.header-navbar-item {
+    margin: 0.4em 1em 0.4em 0;
+}
+
+.fa-chevron-down {
+    margin-left: 0.5em;
+}
+
+.header-icons {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-intro {
+    line-height: 1.5;
+}
+
+h1 {
+    margin: 0.35em 0;
+}
+
+header .order-btn {
+    margin: 1.5em auto;
+}
+
+/* Offer section */
+.offer-section-intro {
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+.meal-type-link {
+    background: #eee;
+    color: #000;
+}
+
+.offer-features-text {
+    line-height: 2;
+}
+
+.offer-features-text button {
+    display: inline-block;
+}
+
+.offer-features-list-item::before {
+    content: '\2713';
+    font-weight: 700;
+    margin-right: 0.75em;
+}
+
+/* Booking */
+.booking-container {
+    background: url('../images/michael-wave-Bm251ukg8Fk-unsplash\ 1.png') no-repeat;
+    background-size: cover;
+    color: #fff;
+    object-fit: cover;
+}
+
+/* Food grid */
+.food-grid {
+    display: grid;
+    grid-gap: 0.8em;
+    margin: 2em 0;
+}
+
+.food-grid-item {
+    justify-content: space-between;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.food-grid-image {
+    height: 250px;
+    margin-bottom: 1.5em;
+    object-fit: cover;
+}
+
+.food-grid-item-link {
+    background: #ea7e00;
+}
+
+.food-grid-item-link:hover {
+    background: #000;
+    color: #fff;
+}
+
+.naira-symbol {
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.footer-container {
+    align-items: center;
+}
+
+.download-link {
+    align-items: center;
+    border: 1px solid #fff;
+    flex-direction: row;
+    font-size: 1.25rem;
+    justify-content: space-between;
+    margin: 1em 0;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
+.download-link i {
+    margin-right: 0.75em;
+}
+
+.fa-apple,
+.fa-google-play {
+    font-size: 2.3rem;
+}
+
+.fa-phone-alt,
+.fa-envelope {
+    color: #fff;
+    margin-right: 0.25em;
+}
+
+.social-media-icons {
+    margin: 2em 0;
+}
+
+.social-media-icon {
+    background: #fff;
+    border-radius: 50%;
+    color: #000;
+    font-size: 1.5rem;
+    margin-right: 1em;
+    padding: 0.25em;
+}
+
+.copyright {
+    color: rgba(195, 195, 195, 0.5);
+}
+
+/* Media queries */
+@media (min-width: 550px) {
+    /* General styles */
+    html {
+        font-size: 16px;
+    }
+
+    /* General classes */
+    .flex-row {
+        flex-direction: row;
+    }
+
+    .form-inputs {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    /* Header */
+    .header-container {
+        height: 100%;
+    }
+
+    .header-menu-bar {
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .header-navbar {
+        width: 90%;
+    }
+
+    .header-navbar-ul {
+        justify-content: space-between;
+    }
+
+    .header-intro {
+        justify-content: center;
+        height: 100%;
+    }
+
+    /* Offer section */
+    .offer-features {
+        justify-content: space-between;
+    }
+
+    .offer-features-image {
+        min-width: 250px;
+        width: 25%;
+    }
+
+    .offer-features-text {
+        margin-left: 2em;
+        width: 70%;
+    }
+
+    /* Booking */
+    .booking-container {
+        line-height: 2.5;
+        justify-content: space-evenly;
+    }
+
+    /* Food grid */
+    .food-grid {
+        grid-gap: 1.5em;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1000px) {
+    /* General classes */
+    .form-inputs {
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+    }
+
+    /* Food grid */
+    .food-grid {
+        grid-gap: 1.5em;
+        grid-template-columns: repeat(4, minmax(250px, 1fr));
+    }
+}

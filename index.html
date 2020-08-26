@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>10 Foods | Landing Page</title>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <script src="https://kit.fontawesome.com/a21dc2a35f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="header-container container flex-container">
+                <div class="header-menu-bar flex-container flex-row">
+                    <img class="logo" src="./images/Logo.png" alt="Logo">
+                    <nav class="header-navbar">
+                        <ul class="header-navbar-ul flex-container flex-row">
+                            <li class="header-navbar-item"><a href="#">Home</a></li>
+                            <li class="header-navbar-item"><a href="#">10 Menu</a> <i class="fas fa-chevron-down"></i></li>
+                            <li class="header-navbar-item"><a href="#">Special orders</a></li>
+                            <li class="header-navbar-item"><a href="#">Reservation</a></li>
+                            <li class="header-navbar-item"><a href="#">Call to order</a></li>
+                            <div class="header-icons flex-container">
+                                <li class="header-navbar-item"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li class="header-navbar-item"><a href="#"><i class="far fa-user"></i></a></li>
+                            </div>   
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-intro flex-container">
+                    <div class="section-header flex-container">
+                        <h1>Different countries</h1>
+                        <p class="section-header-intro">10 meals</p>
+                    </div>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien metus. Nulla eu sapien turpis. Integer suscipit tempus sapien sed dapibus.</p>
+                    <a class="order-btn" href="#">Order now</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- Offer section -->
+            <section class="offer-section container">
+                <div class="section-header flex-container">
+                    <h2>Our Offer</h2>
+                    <p class="section-header-intro">Tasty and crunchy</p>
+                </div>
+                <hr>
+                <p class="offer-section-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien metus. Nulla eu sapien turpis. Integer suscipit tempus sapien sed dapibus.</p>
+                <div class="offer-features flex-container flex-row">
+                    <div class="offer-features-image">
+                        <img src="./images/1 first 1.png" alt="">
+                    </div>
+                    <div class="offer-features-text">
+                        <button class="link-btn">Meals</button>
+                        <button class="meal-type-link link-btn">Desserts</button>
+                        <button class="meal-type-link link-btn">Drinks</button>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien metus. Nulla eu sapien turpis. Integer suscipit tempus.</p>
+                        <ul class="offer-features-list">
+                            <li class="offer-features-list-item">Aenean vitae urna in nulla condimentum.</li>
+                            <li class="offer-features-list-item">Nunc iaculis orci quis auctor scelerisque.</li>
+                            <li class="offer-features-list-item">Integer suscipit tempus sapien sed dapibus.</li>
+                            <li class="offer-features-list-item">Mauris posuere tortor non dui volutpat.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Booking -->
+            <div class="booking-container flex-container">
+                <section class="container">
+                    <div class="section-header flex-container">
+                        <h2>Book a table</h2>
+                        <p class="section-header-intro">Check out our place</p>
+                    </div>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien metus. Nulla eu sapien turpis. Integer suscipit tempus sapien sed dapibus.</p>
+                    <form action="" method=POST>
+                        <div class="form-inputs">
+                            <div class="number-input-container">
+                                <input id="number-of-people" type="number" name="number-of-people" aria-label="Number of people" maxlength="20" required aria-required="true">
+                                <i class="far fa-user"></i>
+                            </div>
+                            <input id="date" type="date" name="date" aria-label="Reservation date" required aria-required="true">
+                            <input id="time" type="time" name="time" aria-label="Reservation time" required aria-required="true">
+                        </div>
+                        <button class="link-btn" type="submit">Book a table now</button>
+                    </form>
+                </section>
+                <!-- Events -->
+                <section class="container">
+                    <div class="section-header flex-container">
+                        <h2>Let's cover for your event</h2>
+                        <p class="section-header-intro">Let's cater for your event</p>
+                    </div>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien metus. Nulla eu sapien turpis. Integer suscipit tempus sapien sed dapibus.</p>
+                    <form action="" method="POST">
+                        <div class="form-inputs">
+                            <div class="number-input-container">
+                                <input id="number-of-people" type="number" name="number-of-people" maxlength="20" aria-label="Number of people" required aria-required="true">
+                                <i class="far fa-user"></i>
+                            </div>
+                            <input id="date" type="date" name="date" aria-label="Reservation date" required aria-required="true">
+                            <select id="city" name="city" aria-label="City" required aria-required="true">
+                                <option value="" disabled>SELECT YOUR CITY</option>
+                                <option value="Ikoyi">Ikoyi</option>
+                                <option value="Port-Harcourt">Port Harcourt</option>
+                                <option value="Ibadan">Ibadan</option>
+                                <option value="Victoria-Island">Victoria Island</option>
+                                <option value="Uyo">Uyo</option>
+                                <option value="Abeokuta">Abeokuta</option>
+                            </select>
+                        </div>
+                        <button class="link-btn" type="submit">Book for your event now</button>
+                    </form>
+                </section>
+            </div>
+            <!-- Food grid section -->
+            <section class="container">
+                <div class="section-header flex-container">
+                    <h2>This month ten foods</h2>
+                    <p class="section-header-intro">Tasty and crunchy</p>
+                </div>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien metus. Nulla eu sapien turpis. Integer suscipit tempus sapien sed dapibus.</p>
+                <!-- Food grid -->
+                <div class="food-grid">
+                    <figure class="food-grid-item flex-container">
+                        <img class="food-grid-image" src="./images/WhatsApp Image 2020-08-23 at 2.48 1.png" alt="">
+                        <figcaption>
+                            <p>Sweet and Golden Chicken Nuggets</p>
+                            <p><span class="naira-symbol">&#8358;</span> 00.00</p>
+                            <a class="food-grid-item-link order-btn" href="#">Order now</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="food-grid-item flex-container">
+                        <img class="food-grid-image" src="./images/WhatsApp Image 2020-08-23 at 2.48 4.png" alt="">
+                        <figcaption>
+                            <p>Spaghetti and Meatballs</p>
+                            <p><span class="naira-symbol">&#8358;</span> 00.00</p>
+                            <a class="food-grid-item-link order-btn" href="#">Order now</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="food-grid-item flex-container">
+                        <img class="food-grid-image" src="./images/WhatsApp Image 2020-08-23 at 2.48 2.png" alt="">
+                        <figcaption>
+                            <p>Cauliflower Jollof Rice with Turkey and Plantain</p>
+                            <p><span class="naira-symbol">&#8358;</span> 00.00</p>
+                            <a class="food-grid-item-link order-btn" href="#">Order now</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="food-grid-item flex-container">
+                        <img class="food-grid-image" src="./images/WhatsApp Image 2020-08-23 at 2.48 3.png" alt="">
+                        <figcaption>
+                            <p>Grilled Fish with Chicken Veg Sauce and White Rice</p>
+                            <p><span class="naira-symbol">&#8358;</span> 00.00</p>
+                            <a class="food-grid-item-link order-btn" href="#">Order now</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="food-grid-item flex-container">
+                        <img class="food-grid-image" src="./images/WhatsApp Image 2020-08-23 at 2.48 1.png" alt="">
+                        <figcaption>
+                            <p>Sweet and Golden Chicken Nuggets</p>
+                            <p><span class="naira-symbol">&#8358;</span> 00.00</p>
+                            <a class="food-grid-item-link order-btn" href="#">Order now</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="food-grid-item flex-container">
+                        <img class="food-grid-image" src="./images/WhatsApp Image 2020-08-23 at 2.48 4.png" alt="">
+                        <figcaption>
+                            <p>Spaghetti and Meatballs</p>
+                            <p><span class="naira-symbol">&#8358;</span> 00.00</p>
+                            <a class="food-grid-item-link order-btn" href="#">Order now</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="food-grid-item flex-container">
+                        <img class="food-grid-image" src="./images/WhatsApp Image 2020-08-23 at 2.48 2.png" alt="">
+                        <figcaption>
+                            <p>Cauliflower Jollof Rice with Turkey and Plantain</p>
+                            <p><span class="naira-symbol">&#8358;</span> 00.00</p>
+                            <a class="food-grid-item-link order-btn" href="#">Order now</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="food-grid-item flex-container">
+                        <img class="food-grid-image" src="./images/WhatsApp Image 2020-08-23 at 2.48 3.png" alt="">
+                        <figcaption>
+                            <p>Grilled Fish with Chicken Veg Sauce and White Rice</p>
+                            <p><span class="naira-symbol">&#8358;</span> 00.00</p>
+                            <a class="food-grid-item-link order-btn" href="#">Order now</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="food-grid-item flex-container">
+                        <img class="food-grid-image" src="./images/WhatsApp Image 2020-08-23 at 2.48 1.png" alt="">
+                        <figcaption>
+                            <p>Sweet and Golden Chicken Nuggets</p>
+                            <p><span class="naira-symbol">&#8358;</span> 00.00</p>
+                            <a class="food-grid-item-link order-btn" href="#">Order now</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="food-grid-item flex-container">
+                        <img class="food-grid-image" src="./images/WhatsApp Image 2020-08-23 at 2.48 4.png" alt="">
+                        <figcaption>
+                            <p>Spaghetti and Meatballs</p>
+                            <p><span class="naira-symbol">&#8358;</span> 00.00</p>
+                            <a class="food-grid-item-link order-btn" href="#">Order now</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+            <!-- Orders -->
+            <section class="container">
+                <div class="section-header flex-container">
+                    <h2>Place a special order</h2>
+                    <p class="section-header-intro">Tasty and crunchy</p>
+                </div>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac sapien metus. Nulla eu sapien turpis. Integer suscipit tempus sapien sed dapibus.</p>
+                <form action="" method=POST>
+                    <div class="form-inputs">
+                        <div class="number-input-container">
+                            <input id="number-of-people" type="number" name="number-of-people" maxlength="20" aria-label="Number of people" required aria-required="true">
+                            <i class="far fa-user"></i>
+                        </div>
+                        <input id="date" type="date" name="date" aria-label="Reservation date" required aria-required="true">
+                        <input id="time" type="time" name="time" aria-label="Reservation time" required aria-required="true">
+                        <textarea id="suggestions" name="suggestions" cols="30" rows="10" maxlength="150" placeholder="TELL US WHAT YOU WANT." aria-label="Suggestions"></textarea>
+                    </div>
+                    <button class="link-btn" type="submit">Place order now</button>
+                </form>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="container flex-container footer-container flex-row">
+                <div>
+                    <a class="download-link flex-container" href="#"><i class="fab fa-apple"></i>Download app on apple store</a>
+                    <a class="download-link flex-container" href="#"><i class="fab fa-google-play"></i>Download app on google play</a>
+                </div>
+                <div>
+                    <img class="logo" src="./images/Logo.png" alt="Logo">
+                </div>
+                <div>
+                    <div>
+                        <a href="tel:+2348123456789"><i class="fas fa-phone-alt"></i>(+234) 0812 345 6789</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Kilometer 888 off Highway Road, Lagos, Nigeria</p>
+                    </div>
+                    <div>
+                        <i class="far fa-envelope"></i>
+                        <a href="mailto:tenfoodsmeals@gmail.com">tenfoodsmeals@gmail.com</a>
+                    </div>
+                    <div class="social-media-icons">
+                        <a class="social-media-icon" href="#" title="Whatsapp" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        <a class="social-media-icon" href="#" title="Twitter" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="social-media-icon" href="#" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-media-icon" href="#" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <p class="copyright">Copyright 2020 @ Funlearningdaily</p>
+        </footer>
+    </body>
+</html>
