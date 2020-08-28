@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Mulish', sans-serif;
+}
+.product{
+    padding: 3rem;
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.product-price{
+    color: #ea7e00;
+    margin-top: 20px;
+    font-size: 18px;
+}
+h2{
+    margin-top: 2rem;
+    text-align: center;
+}
+h4{
+    margin-bottom: 10px;
+}
+.food-image{
+    width: 250px;
+    height: 250px;
+    margin-right: 30px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.address-text,.delivery-text{
+    padding: 1rem 3rem;
+    background-color: #e5e5e5;
+}
+.address input{
+    margin:0 3rem;
+    padding: 15px 0 ;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.delivery{
+    background-color: #e5e5e5;
+    padding-bottom: 20px;
+}
+.radio {
+    display: flex;
+    background-color: white;
+    padding:1rem 4rem;
+
+}
+.radio input{
+    margin-right: 2rem;
+    margin-top: 5px;
+}
+.radio p{
+    line-height: 25px;
+}
+.total{
+    padding:1rem 3rem;
+}
+.total-flex{
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.border{
+    width: 100%;
+    border: 2px solid #c4c4c4;
+    margin: 1rem 0;
+}
+.order-btn{
+    margin: 20px;
+    text-align: center;
+}
+.order-btn button{
+    padding: 15px 100px;
+    background-color: #ea7e00;
+    border-radius: 3px;
+    border: 1px solid #ea7e00;
+    font-size: 18px;
+    color: white;
+}
+
+@media screen and (max-width:500px){
+    .food-image{
+        margin: auto;
+    }
+    .product{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+      
+    }
+    .product p{
+        margin-top: 15px;
+    }
+    .address-text,.delivery-text{
+        padding: 1rem 2rem;
+        
+    }
+    .address input{
+        margin:0 2rem;
+    }
+    .radio {
+        padding:1rem 2rem;
+    }
+    .radio input{
+        margin-right: 1rem;
+    }
+    .order-btn{
+        margin: 20px 0;
+        
+    }
+    .order-btn button{
+        padding: 15px;
+        width: 100%;
+    }
+    .total{
+        padding:1rem 2rem;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Foods</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cart.css" type="text/css">
+    <link rel="icon" href="./images/Logo.png" type="image/png">
+    <script src="https://kit.fontawesome.com/a21dc2a35f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h2>Shopping cart</h2>
+    <div class="product">
+        <img class="food-image" src="./images/jollof.jpg" alt="">
+        <div>
+            <p>Jollof Rice </p>
+            <p class="product-price">&#8358;1000.00</p>
+        </div>
+    </div>
+    <div class="address">
+        <p class="address-text">ADDRESS DETAILS</p>
+        <input type="text" placeholder="Full name">
+        <input type="text" placeholder="Delivery address">
+        <input type="tel" placeholder="Phone number">
+    </div>
+    <div class="delivery">
+        <p class="delivery-text">SELECT A DELIVERY METHOD</p>
+        <div class="radio">
+            <input type="radio" id="door" name="delivery" value="door">
+            <label for="door"><h4>DOOR DELIVERY </h4>
+                <p>Items will be delivered between 1 to 2 hours or lesser giving your location</p>
+                <p>Shipping Fees: &#8358;1000 </p>
+            </label><br>
+            </div>
+            <div class="radio">
+            <input type="radio" id="pickup" name="delivery" value="pickup">
+            <label for="pickup">
+                <h4>PICK UP</h4>
+                <p>Items will be ready for pickup at the resturant in 1hour </p>
+            </label>
+            </div>
+    </div>
+    <div class="total">
+        <div class="total-flex">
+            <p>Subtotal</p>
+            <p>&#8358;1000.00</p>
+        </div>
+        <div class="total-flex">
+            <p>Delivery fee</p>
+            <p>&#8358;1000.00</p>
+        </div>
+        <div class="border"></div>
+        <div class="total-flex">
+            <p>Total</p>
+            <p>&#8358;2000.00</p>
+        </div>
+        <div class="order-btn">
+            <button>COMPLETE ORDER</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
