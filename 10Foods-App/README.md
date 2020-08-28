@@ -1,16 +1,18 @@
-# delivery_app
+# 10 Foods delivery app
 
-A new Flutter project.
+This app was created using dart and the flutter framework for the ECX internship program
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Although the app isnt complete it starts off with a splash screen and an onboarding screen with the signup and login pages
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The the home page for ordering foods and a special order page and a cart page for orders.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Link to the UI
+
+
+https://www.figma.com/file/aQ0e5w1lqCm99uIW7sMpk8/food-app?node-id=0%3A1
+
+
+# Link to download the working app
